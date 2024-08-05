@@ -1,0 +1,16 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+#copyMessage {
+	visibility: hidden;
+	margin-top: 10px;
+}
+
+@media (max-width: 300px) {
+	.d-flex {
+		flex-direction: column;
+	}
+}
